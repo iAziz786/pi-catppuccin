@@ -1,6 +1,6 @@
 # pi-catppuccin
 
-[Catppuccin](https://github.com/catppuccin/catppuccin) themes for the [pi](https://github.com/earendil-works/pi) coding agent.
+[Catppuccin](https://github.com/catppuccin/catppuccin) themes for the [pi](https://pi.dev) coding agent.
 
 ## Flavors
 
@@ -14,13 +14,15 @@
 ## Install
 
 ```bash
-bun add -g pi-catppuccin
+pi install git:github.com/iAziz786/pi-catppuccin
 ```
 
-Or with npm:
+Or add directly to `~/.pi/agent/settings.json`:
 
-```bash
-npm install -g pi-catppuccin
+```json
+{
+  "packages": ["git:github.com/iAziz786/pi-catppuccin"]
+}
 ```
 
 ## Usage
