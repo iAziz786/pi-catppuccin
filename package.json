@@ -1,0 +1,11 @@
+{
+  "name": "pi-catppuccin",
+  "version": "1.0.0",
+  "description": "Catppuccin themes for pi coding agent",
+  "files": ["themes"],
+  "pi": {
+    "themes": ["./themes"]
+  },
+  "keywords": ["pi", "catppuccin", "theme", "colors"],
+  "license": "MIT"
+}
